@@ -27,13 +27,3 @@ It will show test results and will create a JAR file. To run the app type:
 
 
 DON'T LET YOUR GOBLIN DIE!
-
-              .,+* Hunt the Wumpus *+,.
-              ────────────┬────────────
-   ┌───────────────┐      │
-   │               ├──────┘
-   │  !!!    ╀   * │
-   │ <o.O> 0x│ 0x▒ │
-   │ [^^^]   ╛   ▀ │
-   │               ╞╗
-   └───╥───────────┘
