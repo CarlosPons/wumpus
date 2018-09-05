@@ -1,4 +1,4 @@
-wumpus
+Wumpus
 ======
 
 A simple test designed for the interview process at Connected Health Services. 
@@ -8,3 +8,32 @@ Please fork this repo in your account and develop a Java program that implements
 Bonus points for unit tests ;).
 
 Please use Eclipse as your IDE and whatever version of Java you are most confortable with (Scala or Groovy also welcomed). Use whatever framework you prefer for your unit tests.
+
+
+Chosen solution
+---------------
+
+To create the app I used Java7 and Maven3.2 (in the POM I just added JUnit4 for testing). I tried to keep as simple as possible. To develop the app I used a Model-View-Controller pattern. I created a simple dependency injection to manage the java project.
+
+With JUnit I tested init and controller methods. The view is a simple console print so I didn't use a test for it.
+
+To execute the app just do:
+
+    mvn clean install
+
+It will show test results and will create a JAR file. To run the app type:
+
+    java -jar ./target/wumpus.jar
+
+
+DON'T LET YOUR GOBLIN DIE!
+
+              .,+* Hunt the Wumpus *+,.
+              ────────────┬────────────
+   ┌───────────────┐      │
+   │               ├──────┘
+   │  !!!    ╀   * │
+   │ <o.O> 0x│ 0x▒ │
+   │ [^^^]   ╛   ▀ │
+   │               ╞╗
+   └───╥───────────┘
